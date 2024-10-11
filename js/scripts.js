@@ -14,36 +14,16 @@ $(document).scroll(function() {
 
 $(document).ready(function() {
 
-    if( $(".slider").length > 0 ) {
-        $(".slider").not(".slick-initialized").slick({
-            dots: true,
+    if( $(".testimonials").length > 0 ) {
+        $(".testimonials").not(".slick-initialized").slick({
+            dots: false,
             arrows: true,
             // autoplay: true,
             autoplaySpeed: 4000,
             speed: 2000,
             variableWidth: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            centerMode: true,
-            appendDots: $(".slider_dots"),
-            appendArrows: $(".slider_arrows"),
-            // fade: true,
-            responsive: [
-                {
-                  breakpoint: 1125,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                  }
-                },
-                // {
-                //   breakpoint: 540,
-                //   settings: {
-                //     slidesToShow: 1,
-                //     slidesToScroll: 1
-                //   }
-                // }
-              ]
+            slidesToShow: 1,
+            slidesToScroll: 1
         });
     }
 
