@@ -721,7 +721,7 @@ textarea:focus {
 
 .thumb_2_price > div:nth-child(2) {
     width: calc(100% - 55px);
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .thumb_2_price > div:nth-child(1) img {
